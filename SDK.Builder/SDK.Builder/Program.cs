@@ -14,6 +14,7 @@ using System.IO;
 using System.Text;
 using System.Linq;
 using Phantasma.VM;
+using Phantasma.Domain;
 
 namespace SDK.Builder
 {
@@ -239,7 +240,7 @@ namespace SDK.Builder
                 }
             }
 
-            var nexus = new Nexus();
+            var nexus = new Nexus("main");
             var api = new NexusAPI(nexus);
             foreach (var v in replacements)
             {

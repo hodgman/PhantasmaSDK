@@ -80,6 +80,10 @@
       <Project>{58B3FF4B-3DFC-4893-98D1-61090E9747FC}</Project>
       <Name>Phantasma.Cryptography</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\PhantasmaChain\Phantasma.Domain\Phantasma.Domain.csproj">
+      <Project>{d8a80a0f-f572-42b8-9783-21ee70639190}</Project>
+      <Name>Phantasma.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\PhantasmaChain\Phantasma.P2P\Phantasma.P2P.csproj">
       <Project>{f1ab383f-4a8e-41f3-b8c3-a39862832657}</Project>
       <Name>Phantasma.P2P</Name>
